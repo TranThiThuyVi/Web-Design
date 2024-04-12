@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/css" href="CSS/dk.css">
+	<script src="JS/dangky.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<div id="logo" >
+				<img src="Images/logo.png">
+			</div>
+			<div id="nt" >
+				<img src="Images/2.png">
+			</div>
+			<div id="dn">
+				<img src="Images/dangnhap.png">
+				<a href="Dangnhap.html" >Đăng nhập</a> |
+				<a href="Dangky.html" >Đăng ký thành viên</a>
+			</div>
+		</header>
+		<nav>
+			<div id="subnav">
+				<ul>
+					<li><a href="Index.html">TRANG CHỦ</a></li>
+					<li><a href="#">THỂ LOẠI</a>
+						<ul>
+							<li><a href="hiendai.html">Hiện đại</a></li>
+							<li><a href="xuyenkhong.html">Xuyên không</a></li>
+							<li><a href="doanvan.html">Đoản văn</a></li>
+							<li><a href="linhdi.html">Linh dị</a></li>
+							<li><a href="dienvan.html">Điền văn</a></li>
+							<li><a href="matthe.html">Mạt thế</a></li>
+							<li><a href="vuontruong.html">Vườn trường</a></li>
+							<li><a href="vongdu.html">Võng du</a></li>
+							<li><a href="huyenhuyen.html">Huyền huyễn</a></li>
+							<li><a href="quansu.html">Quân sự</a></li>
+						</ul>
+						<li><a href="#">DANH SÁCH</a>
+						<ul>
+							<li><a href="moidang.html">&#10169 Mới đăng</a></li>
+							<li><a href="moicapnhat.html">&#9851 Mới cập nhật</a></li>
+							<li><a href="truyenfull.html"><b>&#401</b> Truyện Full</a></li>
+							<li><a href="xemnhieu.html">👁️ Xem nhiều</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div>
+					<input type="text" size="15" name="tsearch"	placeholder="Tìm truyện, tác giả ...">
+					<img src="Images/search.png">
+				</div>
+			</div>
+		</nav>
+		<div id="body">
+			<article>
+				<section>
+					<h2>ĐĂNG KÝ THÀNH VIÊN</h2>
+					<form action="#" method="post" name="register">
+						<table>
+							<tr>
+								<td>First Name</td>
+								<td><input id="firstname" name="txtFirstname" type="text"></td>
+							</tr>
+							<tr>
+								<td>Last Name</td>
+								<td><input id="lastname" name="txtLastname" type="text"></td>
+							</tr>
+							<tr>
+								<td>Email</td>
+								<td><input id="email" name="txtEmail" type="email"></td>
+							</tr>
+							<tr>
+								<td>Address</td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td>Password</td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td>Date</td>
+								<td><input type="date"></td>
+							</tr>
+							<tr>
+								<td colspan="2" style="text-align: center; padding-top: 20px">
+									<input type="submit" value="Registration" class="nut" onClick="return KiemTraThongTin();">
+									<input type="reset" value="Cancel" class="nut">
+								</td>
+							</tr>
+						</table>
+						<hr>
+						<p align="center" >Hoặc</p>
+						<p>
+						  <button class="radius title" name="signup"><img src="Images/facebook_32.png" align="center"> Sign Up for Facebook</button>
+						</p>
+					</form>	
+			</section>
+			<aside >
+				<div>
+						<p><a href="xemnhieu.html">TRUYỆN XEM NHIỀU</a></p>
+							<ul >
+								<li><a href="#">&#10102 Ngạo Thế Đan Thần</a>
+									 <p>👁️280,785,402</p>
+								</li>
+								<li><a href="#">&#10103 Kiếm Đạo Độc Tôn</a><p>👁️82,817,194</p></li>
+								<li><a href="#">&#10104 Già Thiên</a><p>👁️72,652,412</p></li>
+								<li><a href="#">&#10105 Linh Vũ Thiên Hạ</a><p>👁️ 71,455,696</p></li>
+								<li><a href="#">&#10106 Hôn Trộm 55 Lần</a><p>👁️51,287,332</p></li>
+								<li><a href="#">&#10107 Phượng Nghịch Thiên Hạ</a><p>👁️49,870,618</p></li>
+								<li><a href="#">&#10108 Cô Vợ Ngọt Ngào Có Chút Bất Lương </a><p>👁️48,159,756</p></li>
+								<li><a href="#">&#10109 Y Thủ Che Thiên </a><p>👁️43,018,135</p></li>
+								<li><a href="#">&#10110 Dụ Tình - Lời Mời Của Boss Thần Bí </a><p>👁️38,575,804</p></li>
+							</ul>
+					</div>
+					<div id="tl">
+						<p><a href="#">THỂ LOẠI</a></p>
+							<table>
+								<tr>
+									<td>Tiên hiệp</td>
+									<td>Kiếm hiệp</td>
+								</tr>
+								  <tr>
+									<td>Dị giới</td>
+									<td>Huyền huyễn</td>
+								  </tr>
+								  <tr>
+									<td>Đô Thị</td>
+									<td>Hiện Đại</td>
+								  </tr>
+								  <tr>
+									<td>Linh Dị</td>
+									<td>Đồng Nhân</td>
+								  </tr>
+								  <tr>
+									<td>Võng Du</td>
+									<td>Khoa Huyễn</td>
+								  </tr>
+								  <tr>
+									<td>Quân Nhân</td>
+									<td>Trinh Thám</td>
+								  </tr>
+								<tr>
+									<td>Trọng Sinh</td>
+									<td>Xuyên Không</td>
+								</tr>
+								  <tr>
+									<td>Truyện Sủng</td>
+									<td>Truyện Ngược</td>
+								  </tr>
+								  <tr>
+									<td>Mạt Thế</td>
+									<td>Điền văn</td>
+								  </tr>
+								  <tr>
+									<td>Truyện Sắc</td>
+									<td>Phương Tây</td>
+								  </tr>
+								  <tr>
+									<td>Bách Hợp</td>
+									<td>Đam Mỹ</td>
+								  </tr>
+								  <tr>
+									<td>Nữ Phụ</td>
+									<td>Xuyên Nhanh</td>
+								  </tr>
+								 <tr>
+									<td>Cung Đấu</td>
+									<td>Gia Đấu</td>
+								  </tr>
+								  <tr>
+									<td>Hệ Thống</td>
+									<td>Tinh Tế</td>
+								  </tr>
+								  <tr>
+									<td>Đoản Văn</td>
+									<td>Hài Hước</td>
+								  </tr>
+								  <tr>
+									<td>Incest</td>
+									<td>Ngụy Incest</td>
+								  </tr>
+								  <tr>
+									<td>SM</td>
+									<td>NP</td>
+								  </tr>
+							</table>
+					</div>
+			</aside>
+		</article>
+		</div>
+		<footer>
+			<div class="footer_left">
+				<p>AIN&#9728VEL - Đọc truyện online, đọc truyện chữ, truyện hay. Website luôn cập nhật những bộ truyện mới thuộc các thể loại đặc sắc như truyện tiên hiệp, truyện kiếm hiệp, hay truyện ngôn tình một cách nhanh nhất. Hỗ trợ mọi thiết bị như di động và máy tính bảng.</p>
+			</div>
+			<div class="footer_right">
+				<p>Kết nối với chúng tôi</p>
+				<img src="Images/fb.png">
+				<p>Email : ainovel@novel.com</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

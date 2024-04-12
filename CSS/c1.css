@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin : 0px;
+	padding: 0px;
+}
+.container{
+	width:1300px;
+	margin: 0px auto;
+	border: 1px solid #FFBCBC;
+}
+header{
+
+	margin: 0px auto;
+}
+div#logo{
+	float: left;
+}
+div#logo>img{
+	width: 200px;
+	height:100px;
+}
+div#nt{
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+div#nt>img{
+	width: 100px;
+	height:50px;
+}
+div#dn{
+	float: right;
+	margin-right: 30px;
+	margin-top: 0px ;
+	padding-bottom: 10px;
+	clear:left;
+}
+div#dn>img{
+	width: 30px;
+	height:30px;
+}
+div#dn a{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #E48182;
+	text-decoration: none;
+}
+header>div#dn>a:hover{
+	color: #F5F0F0;
+}
+nav{
+	clear: both;
+	background-color: #F0CECF;
+	height: 45px;
+}
+nav div#subnav{
+	margin: 0px auto;
+}
+div#subnav>ul{
+	float: left;
+	list-style: none;
+	margin-left: 50px;
+}
+div#subnav>ul>li{
+	float: left;
+	padding: 11px 17px;
+	position: relative;
+}
+div#subnav>ul>li>ul{
+	width: 130px;
+	background-color: #EFD5D6;
+	list-style: none;
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	z-index: 1;
+}
+div#subnav>ul>li>ul>li{
+	padding: 10px;
+	color: #F5E3E3;
+	font-weight: bold;
+	font-size: 16px;
+}
+div#subnav>ul>li>ul>li>a{
+	color: #E48182;
+}
+div#subnav>ul>li:hover>ul{
+	display: block;
+}
+div#subnav>ul>li>a{
+	color: #E48182;
+	font-size: 16px;
+	font-family: Arial;
+	text-decoration: none;
+	font-weight: bold;
+}
+div#subnav>ul>li:hover{
+	background-color: #F85A5D;
+}
+div#subnav>ul>li:hover>a{
+	color: #F1C2C3;
+}
+nav div#subnav>div{
+	float: right;
+	background-color: white;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	height: 34px;
+	width: 380px;
+	border: 0.5px solid #CED2DD;
+	border-radius: 5px;
+}
+nav div#subnav>div input[type=text]
+{
+	float: left;
+	height: 29px;
+	width: 250px;
+	font-size: 14px;
+	border: none;
+}
+div#body{
+	width: 1300px;
+	margin: 0px auto;
+	background-color: #F9F4F4;
+}
+article{
+	display: table-row;
+}
+section{
+	display:table-cell;
+	vertical-align: top;
+	padding-top: 8px;
+}
+section>p{
+	background: #fff;
+	border-bottom-left-radius: 2px;
+	border-top-right-radius: 2px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	width: 950px;
+	margin-left: 180px;
+	height: 25px;
+	padding-top: 8px;
+	margin-top: 10px;	
+	color: #000;
+}
+div#left>p{
+	background: #fff;
+	border-bottom-left-radius: 2px;
+	border-top-right-radius: 2px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	width: 950px;
+	margin-left: 180px;
+	height: 25px;
+	padding-top: 8px;
+	margin-top: 10px;	
+	color: #000;
+}
+div#left>table{
+	text-align:left;
+	border: 0.5px dashed #CED2DD;
+	border-radius: 5px;
+	height: 150px;
+	width: 950px;
+	margin-left: 180px;
+	background-color: #fff;
+}
+table{
+	text-align: center;
+	border: 0.5px dashed #CED2DD;
+	border-radius: 5px;
+	height: 150px;
+	width: 950px;
+	margin-left: 180px;
+	background-color: #fff;
+}
+td>input{
+	
+	height:80px;
+	width: 700px;
+	margin-left: 10px;
+}
+td>p{
+	font-family: Arial;
+	font-size: 20px;
+	color: #E48182;
+}
+#chuong{
+		width: 950px;
+	margin-left: 180px;
+	text-align: center;
+	background-color: #fff;
+	padding-top: 5px;
+}
+#chu{
+	padding-top: 10px;
+	font-family: Arial;
+	font-size: 18px;
+	width: 950px;
+	margin-left: 180px;
+	background-color: #fff;
+}
+hr{
+	width:950px;
+	margin-left: 180px;
+}
+#loi{
+	width: 950px;
+	margin-left: 180px;
+	text-align: center;
+	background-color: #fff;
+	padding-top: 5px;
+}
+table>h3{
+	width: 950px;
+	margin-left: 180px;
+}
+.nut{
+	width: 120px;
+	height: 25px;
+	background: linear-gradient(#E48182, #F5E3E3);
+}
+.khac{
+	width: 950px;
+	height: 25px;
+	background-color:  #fff;
+	margin-left: 180px;
+	text-align: center;
+	cursor:pointer;
+	padding-top: 10px;
+}
+footer{
+	height: 120px;
+	padding-top: 10px;
+	background-color: #F0CECF; 
+}
+footer>div.footer_right>p{
+	text-align: center;
+	font-size: 17px;
+	color: #E77273;
+}
+.footer_left{
+	width: 500px;
+	height: 80px;
+	float: left;
+	margin-top: 20px;
+}
+.footer_right{
+	width: 400px; 
+	height: 80px;
+	float: right;
+	margin-top: 40px;
+}
+footer>div.footer_left>p{
+	text-align: left;
+	font-size: 17px;
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #E77273;
+}
+
+footer>div.footer_right>img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
